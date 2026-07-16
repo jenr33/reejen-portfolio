@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reejen Lama | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.15.1/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar-wrapper" id="navbarWrapper">
+        <nav class="navbar">
+            <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+        </nav>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+    </div>
+
+    <div class="sidebar-socials" id="sidebarSocials">
+        <a href="https://github.com/jenr33" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:lamareejen@gmail.com" aria-label="Gmail"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    <main>
+
+        <section class="hero-container" id="home">
+            <div class="hero-content">
+                <div class="hero-header">
+                    <span class="greeting">Hi I am</span>
+                    <div class="accent-line"></div>
+                </div>
+                <h1 class="main-name">Reejen Lama</h1>
+                <p class="subtitle">A COMPUTER SCIENCE STUDENT</p>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="section-wrapper">
+                <h2>About Me</h2>
+                <div class="about-split">
+                    <div class="about-text">
+                        <p>
+                            Hi, I'm Reejen. I am a junior at Queens College majoring in Computer Science. Since childhood,I was always interested in technology which led me to choose this major.I'm constantly sharpening my skills across full-stack development and automation. 
+                        </p>
+                        <p>
+                            When I'm not writing code, you can find me exploring new
+                            frameworks or refining my technical design skills.
+                        </p>
+
+                        <div class="info-blocks">
+                            <div class="info-block">
+                                <button class="info-block-header" type="button">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    <span>Education</span>
+                                    <i class="fa-solid fa-chevron-down toggle-icon"></i>
+                                </button>
+                                <div class="info-block-details">
+                                    <div class="info-block-inner">
+                                        <div class="info-entry">
+                                            <strong>Bachelor's in Computer Science</strong>
+                                            <span>Queens College</span>
+                                            <span class="info-date">Feb 2026 – Present</span>
+                                        </div>
+                                        <div class="info-entry">
+                                            <strong>Associate's Degree in Science</strong>
+                                            <span>Laguardia Community College</span>
+                                            <span class="info-date">Graduated - Dec 2025 (Dean's List)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="info-block">
+                                <button class="info-block-header" type="button">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Location</span>
+                                    <i class="fa-solid fa-chevron-down toggle-icon"></i>
+                                </button>
+                                <div class="info-block-details">
+                                    <div class="info-block-inner">
+                                        <div class="info-entry">
+                                            <span>New York, NY</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="content-section">
+            <div class="section-wrapper">
+                <h2>Skills</h2>
+                <div class="skills-grid" id="skillsGrid">
+                    </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <div class="section-wrapper">
+                <h2>Projects</h2>
+                <div class="cards-grid" id="projectsGrid">
+                    </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <div class="section-wrapper">
+                <h2>Contact Me</h2>
+                <div class="section-card primary-card contact-box">
+                    <p class="contact-text">
+                        Have a question or want to work together? Feel free to drop me a message. I'd love to hear from you!<br>
+                        <span>Click on the mailbox to contact me.</span>
+                    </p>
+                    <button id="openModalBtn" class="mail-btn" aria-label="Open contact form">
+                        <i class="fa-solid fa-envelope-open-text"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="post-contact-socials">
+        <a href="https://github.com/jenr33" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:lamareejen@gmail.com" aria-label="Gmail"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    <div class="back-to-top-wrap">
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">
+            <span class="back-to-top-label"><i class="fa-solid fa-arrow-up"></i> Back to the top</span>
+        </button>
+    </div>
+
+    <footer class="site-footer">
+        <p class="footer-text">&copy; 2026 Reejen Lama. All rights reserved.</p>
+    </footer>
+
+    <div id="contactModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Let's Connect</h3>
+                <button id="closeModalBtn" class="close-btn">&times;</button>
+            </div>
+
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent!');">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="john@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="projectModal" class="modal-overlay">
+        <div class="modal-content project-modal-content">
+            <div class="modal-header">
+                <h3 id="projectModalTitle">Project</h3>
+                <button id="closeProjectModalBtn" class="close-btn">&times;</button>
+            </div>
+            <img id="projectModalImage" class="project-modal-image" src="" alt="">
+            <p id="projectModalDesc" class="project-modal-desc"></p>
+            <div class="project-modal-tools">
+                <span class="project-modal-tools-label">Tools used</span>
+                <div id="projectModalToolsList" class="project-modal-tools-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+    </div>
+
+    <div class="corner-logo" id="cornerLogo" aria-hidden="true">RL</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
